@@ -1,0 +1,14 @@
+ A continuación, se detalla una descripción de cada función presente en el código:
+
+1. `map_grados_a_microsegundos`: Esta función mapea un valor de grados a un rango de microsegundos. Limita el rango de grados entre 0 y 180 y realiza una interpolación lineal para calcular el valor correspondiente en microsegundos.
+
+2. `posicioninicial`: Esta función mueve los servomotores a una posición inicial. Utiliza valores predefinidos de grados y los convierte a microsegundos utilizando la función `map_grados_a_microsegundos`. Luego, establece los microsegundos correspondientes en los servomotores.
+
+3. `dibujoCirculo`: Esta función controla los servomotores para dibujar un círculo (o rombo en el código actual). Utiliza arreglos de ángulos predefinidos para los servomotores y los convierte a microsegundos utilizando la función `map_grados_a_microsegundos`. Mueve los servomotores a los ángulos correspondientes en intervalos de tiempo regulares.
+
+4. `dibujoRectangulo`: Esta función controla los servomotores para dibujar un rectángulo. Utiliza arreglos de ángulos predefinidos para los servomotores y los convierte a microsegundos utilizando la función `map_grados_a_microsegundos`. Mueve los servomotores a los ángulos correspondientes en intervalos de tiempo regulares.
+
+5. `dibujoCuadrado`: Esta función controla los servomotores para dibujar un cuadrado. Utiliza arreglos de ángulos predefinidos para los servomotores y los convierte a microsegundos utilizando la función `map_grados_a_microsegundos`. Mueve los servomotores a los ángulos correspondientes en intervalos de tiempo regulares.
+
+6. `dibujoTriangulo`: Esta función controla los servomotores para dibujar un triángulo. Utiliza arreglos de ángulos predefinidos para los servomotores y los convierte a microsegundos utilizando la función `map_grados_a_microsegundos`. Mueve los servomotores a los ángulos correspondientes en intervalos de tiempo regulares.
+
